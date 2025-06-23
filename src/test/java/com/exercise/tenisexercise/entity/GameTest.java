@@ -17,9 +17,10 @@ class GameTest {
     }
 
     @Test
-    void newGame_startsWithZeroScore() {
+    void newGame_startsWithZeroScore() throws ScoreDisplayException {
         assertEquals(0, game.getPlayerA().getScore());
         assertEquals(0, game.getPlayerB().getScore());
+        assertEquals("Player A : 0 / Player B : 0", game.getGameScore());
     }
 
     @Test
@@ -28,6 +29,30 @@ class GameTest {
         game.getPlayerB().setScore(3);
         assertEquals("Deuce", game.getGameScore());
     }
+
+    @Test
+    void getGameScore_whenAdvantagePlayerA_returnsCorrectScore() throws ScoreDisplayException {
+        game.getPlayerA().setScore(4);
+        game.getPlayerB().setScore(3);
+        assertEquals("Player A : Advantage / Player B : 40", game.getGameScore());
+    }
+
+    @Test
+    void getGameScore_whenAdvantagePlayerB_returnsCorrectScore() throws ScoreDisplayException {
+        game.getPlayerA().setScore(3);
+        game.getPlayerB().setScore(4);
+        assertEquals("Player A : 40 / Player B : Advantage", game.getGameScore());
+    }
+
+    @Test
+    void getGameScore_normalGameProgression_returnsCorrectScore() throws ScoreDisplayException {
+        game.getPlayerA().setScore(1);
+        game.getPlayerB().setScore(2);
+        assertEquals("Player A : 15 / Player B : 30", game.getGameScore());
+    }
+
+
+
 
     @Test
     void isGameFinished_whenPlayerWinsWithFourPoints_returnsTrue() {
