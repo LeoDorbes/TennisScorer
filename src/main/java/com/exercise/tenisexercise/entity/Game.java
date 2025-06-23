@@ -15,12 +15,14 @@ public class Game {
     Player playerB;
 
     public Game() {
+
         this.playerA = new Player(0, "A");
         this.playerB = new Player(0, "B");
     }
 
 
     public String getGameScore() throws ScoreDisplayException {
+
         if (isGameFinished()) {
             if (playerA.getScore() > playerB.getScore()) {
                 return "Player A wins the game";
@@ -35,16 +37,18 @@ public class Game {
         }
 
         return playerA.getRelativeScore(playerB.getScore()) + " / " + playerB.getRelativeScore(playerA.getScore());
-
     }
 
 
     public Boolean isGameFinished() {
+
         var a = playerA.getScore();
         var b = playerB.getScore();
+
         if ((a >= 4 || b >= 4) && Math.abs(a - b) > 1) {
             return true;
         }
+
         return false;
     }
 

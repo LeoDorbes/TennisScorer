@@ -32,6 +32,7 @@ public class Player {
     }
 
     public void score() {
+
         this.score++;
     }
 }
