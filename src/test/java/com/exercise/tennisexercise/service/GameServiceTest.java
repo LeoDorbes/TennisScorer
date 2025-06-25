@@ -1,7 +1,7 @@
-package com.exercise.tenisexercise.service;
+package com.exercise.tennisexercise.service;
 
-import com.exercise.tenisexercise.exception.GameInvalidInputException;
-import com.exercise.tenisexercise.exception.GameNoEndException;
+import com.exercise.tennisexercise.exception.GameInvalidInputException;
+import com.exercise.tennisexercise.exception.GameNoEndException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

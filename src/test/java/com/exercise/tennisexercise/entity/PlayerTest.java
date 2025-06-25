@@ -1,7 +1,7 @@
 
-package com.exercise.tenisexercise.entity;
+package com.exercise.tennisexercise.entity;
 
-import com.exercise.tenisexercise.exception.ScoreDisplayException;
+import com.exercise.tennisexercise.exception.ScoreDisplayException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,13 +1,13 @@
-package com.exercise.tenisexercise;
+package com.exercise.tennisexercise;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TenisExerciseApplication {
+public class TennisExerciseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TenisExerciseApplication.class, args);
+		SpringApplication.run(TennisExerciseApplication.class, args);
 	}
 
 }

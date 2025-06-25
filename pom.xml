@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.exercise</groupId>
-	<artifactId>tenis-exercise</artifactId>
+	<artifactId>tennis-exercise</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Tenis Exercise</name>
-	<description>Demo project for a tenis Exercise</description>
+	<name>Tennis Exercise</name>
+	<description>Demo project for a tennis Exercise</description>
 	<url/>
 	<licenses>
 		<license/>

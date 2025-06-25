@@ -1,9 +1,9 @@
-package com.exercise.tenisexercise;
+package com.exercise.tennisexercise;
 
-import com.exercise.tenisexercise.exception.ScoreDisplayException;
-import com.exercise.tenisexercise.service.GameService;
+import com.exercise.tennisexercise.exception.ScoreDisplayException;
+import com.exercise.tennisexercise.service.GameService;
 
-public class TenisExerciseMain {
+public class TennisExerciseMain {
 
 	public static void main(String[] args) {
 		var scoreEngineService = new GameService();

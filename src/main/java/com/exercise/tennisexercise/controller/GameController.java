@@ -1,6 +1,6 @@
-package com.exercise.tenisexercise.controller;
+package com.exercise.tennisexercise.controller;
 
-import com.exercise.tenisexercise.service.GameService;
+import com.exercise.tennisexercise.service.GameService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

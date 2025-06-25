@@ -1,9 +1,9 @@
-package com.exercise.tenisexercise.service;
+package com.exercise.tennisexercise.service;
 
-import com.exercise.tenisexercise.entity.Game;
-import com.exercise.tenisexercise.exception.GameNoEndException;
-import com.exercise.tenisexercise.exception.ScoreDisplayException;
-import com.exercise.tenisexercise.exception.GameInvalidInputException;
+import com.exercise.tennisexercise.entity.Game;
+import com.exercise.tennisexercise.exception.GameNoEndException;
+import com.exercise.tennisexercise.exception.ScoreDisplayException;
+import com.exercise.tennisexercise.exception.GameInvalidInputException;
 import lombok.extern.java.Log;
 import org.springframework.stereotype.Service;
 

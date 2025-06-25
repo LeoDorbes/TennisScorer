@@ -1,4 +1,4 @@
-package com.exercise.tenisexercise.exception;
+package com.exercise.tennisexercise.exception;
 
 public class GameInvalidInputException extends RuntimeException {
 }
